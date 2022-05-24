@@ -8,8 +8,7 @@ body{
     border-radius: 10px;
     box-shadow: 10px 10px #ddd;
     padding: 20px;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin: auto;
 
 }
 h1{
@@ -27,6 +26,9 @@ main h2{
 
 nav{
     margin-left: 0px;
+    position: sticky;
+    top: 0px;
+    background-color: white;
 }
 
 nav ul{
@@ -90,4 +92,21 @@ section p{
 
 .more-articles h4{
     font-family: roboto slab;
+}
+
+
+footer ul{
+    list-style: none;
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: #777;
+}
+
+footer li{
+    display: inline-block;
+    padding: 5px;
+    font-size: .75em;
 }
